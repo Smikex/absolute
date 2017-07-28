@@ -1,0 +1,19 @@
+{
+  "name": "template",
+  "description": "t",
+  "main": "index.js",
+  "authors": [
+    "Smikex"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
