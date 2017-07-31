@@ -14,5 +14,8 @@
     "./distr",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.1"
+  }
 }
