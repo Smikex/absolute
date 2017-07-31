@@ -1,9 +1,9 @@
 {
-  "name": "template",
-  "description": "t",
+  "name": "absolute",
+  "description": "",
   "main": "index.js",
   "authors": [
-    "Smikex"
+    "Smikex <smikex@gmail.com>"
   ],
   "license": "ISC",
   "homepage": "",
@@ -11,9 +11,8 @@
     "**/.*",
     "node_modules",
     "bower_components",
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "bootstrap": "^3.3.7"
-  }
+    "./distr",
+    "test",
+    "tests"
+  ]
 }
