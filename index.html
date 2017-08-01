@@ -69,8 +69,8 @@
    <button class="btn btn-info" type="button">INFO</button>
    <button class="btn btn-warning" type="button">WARNING</button>
    <button class="btn btn-danger" type="button">DANGER</button>
- </div> 
-</div> 
+ </div>
+</div>
 </div>
 
 <!--     inputs     -->
@@ -146,12 +146,34 @@
   <div class="margin"></div>
     <div class="container">
     <h1>Carousel</h1>
+    <div class="owl-carousel owl-theme">
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+  <div> Your Content </div>
+</div>
   </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="distr/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script src="src/js/star.js"></script>
+    <script src="distr/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+$('.owl-carousel').owlCarousel({
+        items:4,
+        loop:false,
+        center:true,
+        margin:10,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+        startPosition: 'URLHash'
+    });
+</script>
   </body>
   </html>
