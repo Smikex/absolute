@@ -1,9 +1,9 @@
 @import "_variables.scss";
-
+@import "_fonts.scss";
 @import "_bootstrap.scss";
-
 @import "../../distr/owl.carousel/dist/assets/owl.carousel.min.css";
 @import "../../distr/font-awesome/css/font-awesome.min.css";
+
 
 .header_line {
 	margin-top:31px;
@@ -89,17 +89,36 @@ input:checked + .slider:before {
  // Footer
 
 .main-footer{
-	padding: 50px;
+	padding: 53px;
+	margin-bottom: 50px;
 	font-size: 16px;
+  background-color: #f4f5f7;
+	font-family: Roboto;
+	text-align: left;
+	line-height: 40px;
 
 }
 
-.footer-column{
-	margin: 15px 0;
-}
+.main-footer span {
 
+}
+.main-footer span:hover{
+    font-weight: bold;
+}​
 
 
 .social{
 	color: #000;
+}
+
+li{
+	list-style-type: none;
+	text-align:left;
+}
+
+span{
+		text-align:left;
+}
+.fa{
+	margin: 5px;
 }
