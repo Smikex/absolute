@@ -6,6 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(../../distr/owl.carousel/dist/assets/owl.carousel.min.css);
+@import url(../../distr/font-awesome/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5882,3 +5883,13 @@ input:checked + .slider:before {
 
 .starrr {
   color: #e7ab65; }
+
+.main-footer {
+  padding: 50px;
+  font-size: 16px; }
+
+.footer-column {
+  margin: 15px 0; }
+
+.social {
+  color: #000; }

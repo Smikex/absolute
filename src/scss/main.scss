@@ -3,6 +3,7 @@
 @import "_bootstrap.scss";
 
 @import "../../distr/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../../distr/font-awesome/css/font-awesome.min.css";
 
 .header_line {
 	margin-top:31px;
@@ -84,4 +85,21 @@ input:checked + .slider:before {
 }
 .starrr{
 	color: #e7ab65;
+}
+ // Footer
+
+.main-footer{
+	padding: 50px;
+	font-size: 16px;
+
+}
+
+.footer-column{
+	margin: 15px 0;
+}
+
+
+
+.social{
+	color: #000;
 }
