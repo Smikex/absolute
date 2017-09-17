@@ -6,19 +6,41 @@
 
 
 .header_line {
-	margin-top:31px;
+	margin-top:30px;
 	}
-
+.logo_line{
+	margin-bottom: 28px;
+}
+.nav{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2.14;
+  text-align: center;
+  color: #202020;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+	 background-color: #eaecf0;
+	  color: #0049b0;
+}
+a {
+    color: #202020;
+}
 h1 {
 
 	text-align: center;
     }
-.buttons{
-	margin: 0 auto;
+.buttons h1 {
+		margin-top: 101px;
+		margin-bottom: 44px;
+	text-align: center;
+
+}
+.buttons  {
 	text-align: center;
 }
 .margin{
-	margin-top: 100px;
+
 }
 
 
@@ -119,6 +141,32 @@ li{
 span{
 		text-align:left;
 }
-.fa{
-	margin: 5px;
+
+// .form-control {
+// 	height: 38px;
+// 	border-radius: 0px;
+// 	border: 1px solid #a1a1a1;
+// }
+
+.form-control {
+  width: 368px;
+  height: 33px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #a1a1a1;
+}
+.src{
+	width: 76px;
+height: 33px;
+border-radius: 2px;
+background-color: #0049b0;
+font-size: 17px;
+margin: 0px;
+}
+.input-group .form-control{
+	width: 292px;
+
+}
+.header_search{
+	margin-top: 14px;
 }
