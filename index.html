@@ -63,11 +63,10 @@
 </nav>
   <!--     buttons     -->
 
-  <div class="margin"></div>
-  <div class="container buttons">
+  <div class="container buttons block">
    <h1>Buttons</h1>
    <button class="btn btn-primary" type="button">PRIMARY<span></span></button>
-   <button class="btn" type="button">DEFAULT<span></span></button>
+   <button class="btn def" type="button">DEFAULT<span></span></button>
    <button class="btn btn-success" type="button">SUCCESS</button>
    <button class="btn btn-info" type="button">INFO</button>
    <button class="btn btn-warning" type="button">WARNING</button>
@@ -78,25 +77,32 @@
 
 <!--     inputs     -->
 
-<div class="margin"></div>
-<div class="container">
+
+<div class="container block">
   <h1>Inputs</h1>
    <div class="row">
   <div class="col-lg-3"></div>
     <div class="col-lg-2">
       <div class="checkbox">
-        <label><input type="checkbox" value="">Checkbox active</label>
+        <label>
+          <input type="checkbox" value=""checked>
+          <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+          Checkbox active
+        </label>
       </div>
     </div>
     <div class="col-lg-2">
       <div class="radio">
-        <label><input type="radio" name="optradio">Radio active</label>
+        <label><input type="radio" name="optradio" checked>
+          <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+          Radio active</label>
       </div>
     </div>
     <div class="col-lg-2">
       <label class="switch">
         <input type="checkbox">
-        <span class="slider round"></span>
+        <span class="slider sw1 round"></span>
+              <span class="sw">Switcher ON</span>
       </label>
     </div>
     <div class="col-lg-3"></div>
@@ -105,18 +111,24 @@
   <div class="col-lg-3"></div>
     <div class="col-lg-2">
       <div class="checkbox">
-        <label><input type="checkbox" value="">Checkbox</label>
+        <label><input type="checkbox" value="">
+              <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+          Checkbox</label>
       </div>
     </div>
     <div class="col-lg-2">
       <div class="radio">
-        <label><input type="radio" name="optradio">Radio</label>
+        <label><input type="radio" name="optradio">
+          <span class="cr"><i class="cr-icon fa fa-circle"></i></span>
+          Radio</label>
       </div>
     </div>
     <div class="col-lg-2">
       <label class="switch">
         <input type="checkbox">
-        <span class="slider round">test</span>
+        <span class="slider sw2 round"></span>
+        <span class="sw">Switcher OFF</span>
+
       </label>
     </div>
     <div class="col-lg-3"></div>
@@ -124,8 +136,8 @@
   </div>
       <!--     Star rating     -->
 
-  <div class="margin"></div>
-    <div class="container">
+
+    <div class="container block">
     <h1>Star rating</h1>
   </div>
 
