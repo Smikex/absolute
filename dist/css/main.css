@@ -5894,7 +5894,6 @@ h1 {
 
 .buttons button {
   margin-left: 20px;
-  width: 109px;
   height: 45px;
   border-radius: 2px;
   font-family: Montserrat;
@@ -6062,7 +6061,6 @@ input:checked + .slider:before {
 
 .main-footer {
   padding: 53px;
-  margin-bottom: 50px;
   font-size: 16px;
   background-color: #f4f5f7;
   font-family: Roboto;
@@ -6098,7 +6096,10 @@ span {
   margin: 0px; }
 
 .input-group .form-control {
-  width: 292px; }
+  width: 210px; }
+
+.input-group-btn {
+  float: left; }
 
 .header_search {
   margin-top: 14px; }
@@ -6148,10 +6149,6 @@ span {
     margin-top: -20px;
     position: absolute;
     top: 50%; }
-  #sync1.owl-theme .owl-prev {
-    left: 10px; }
-  #sync1.owl-theme .owl-next {
-    right: 10px; }
 
 .item {
   display: flex;
@@ -6196,3 +6193,27 @@ span {
   line-height: 2.5;
   text-align: left;
   color: #202020; }
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+    text-align: left; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .input-group .form-control {
+    width: 210px; } }
+
+/* Custom, iPhone Retina */

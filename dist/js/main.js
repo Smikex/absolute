@@ -77,6 +77,13 @@ $(document).ready(function() {
   });
 });
 
+  $(window).scroll(function() {
+    if ($(this).scrollTop() >= 128) {
+      $('header').addClass("navbar-fixed-top ");
+    } else {
+      $('header').removeClass("navbar-fixed-top ");
+    }
+  });
 
 
 // map
