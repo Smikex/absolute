@@ -153,7 +153,7 @@ font-family: OpenSans;
 /* The switch - the box around the slider */
 .switch {
   position: relative;
-  // display: inline-block;
+  display: inline-block;
   width: 47px;
   height: 20px;
 
@@ -174,14 +174,15 @@ font-family: OpenSans;
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 5px;
+  left: -7px;
+  right: 6px;
+  bottom: -6px;
   background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
 }
+
 .sw1{
 	  background-color: #34bf49;
 }
@@ -223,8 +224,21 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.star{
+	padding-left: 5px
+}
 .starrr{
 	color: #e7ab65;
+}
+.starrr .fa{
+	padding: 1px;
+}
+
+.flex{
+display:flex;
+flex-direction: row;
+align-items: baseline;
+justify-content:center;
 }
  // Footer
 
@@ -260,12 +274,6 @@ span{
 		text-align:left;
 }
 
-// .form-control {
-// 	height: 38px;
-// 	border-radius: 0px;
-// 	border: 1px solid #a1a1a1;
-// }
-
 .form-control {
   width: 368px;
   height: 33px;
@@ -287,4 +295,77 @@ margin: 0px;
 }
 .header_search{
 	margin-top: 14px;
+}
+
+
+
+
+// slider
+#sync1.owl-theme .owl-prev {
+	left: -40px;
+}
+.owl-carousel .owl-item img{
+	width: 270px;
+	height: 270px;
+}
+
+#sync1 {
+  .item {
+    margin: 5px;
+      text-align: center;
+			border: solid 1px #a1a1a1;
+  }
+}
+
+#sync2 {
+  .item {
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    h1 {
+      font-size: 18px;
+    }
+  }
+  .current .item{
+    background: #0c83e7;
+  }
+}
+
+
+
+.owl-theme {
+  .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+    [class*='owl-'] {
+      transition: all .3s ease;
+      &.disabled:hover {
+       background-color: #D6D6D6;
+      }
+    }
+
+  }
+}
+
+//arrows on first carousel
+#sync1.owl-theme {
+  position: relative;
+  .owl-next, .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+  }
+  .owl-prev {
+    left: 10px;
+  }
+  .owl-next {
+    right: 10px;
+  }
 }
